@@ -1,0 +1,5 @@
+ProjetC_EquipeMarine_fichiers: ProjetC_EquipeMarine_fichiers_fonctions.o
+	gcc -o ProjetC_EquipeMarine_fichiers ProjetC_EquipeMarine_fichiers_fonctions.o ProjetC_EquipeMarine_fichiers_main.c
+
+ProjetC_EquipeMarine_fichiers_fonctions.o:
+	gcc -c ProjetC_EquipeMarine_fichiers_fonctions.c
